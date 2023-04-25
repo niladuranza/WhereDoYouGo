@@ -1,0 +1,83 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: o;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Wildly-Sans';
+
+}
+
+@font-face {
+    font-family: 'Wildly-Sans';
+    src: url(../fonts/Wildy-Sans.ttf);
+}
+
+/* are you dreaming at all? buttons */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 475px;
+
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #c43a88;
+    border: 1px solid #ffffff;
+    color: white;
+  }
+
+
+/* where would you like to be? response */
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  input[type=text] {
+    width: 50%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c43a88;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+
+  input[type=submit] {
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c43a88;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #3e8e41;
+  }
